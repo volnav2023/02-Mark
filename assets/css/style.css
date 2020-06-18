@@ -1,0 +1,26 @@
+body {
+    background-image: url("../img/cornfield.png");
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    right: 15px;
+    top: 10px;
+}    
+
+header nav img {
+display: block;
+}    
+
+.primary-red {
+    color: crimson;
+}
+.icon-size {
+    height: 15px;
+    width: 15px;
+}
