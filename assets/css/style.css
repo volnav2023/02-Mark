@@ -1,10 +1,13 @@
-body {
+#page1 {
     background-image: url("../img/cornfield.png");
     background-repeat: no-repeat;
     /* Do not repeat the image */
     background-size: cover;
     /* Resize the background image to cover the entire container */
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    height: 100vh;
+    background-position: bottom;
+    
 }
 
 header {
@@ -23,4 +26,11 @@ display: block;
 .icon-size {
     height: 15px;
     width: 15px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
