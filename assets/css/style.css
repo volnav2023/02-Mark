@@ -7,25 +7,26 @@
     /* background-color: #ffffff; */
     height: 100vh;
     background-position: bottom;
-    
 }
 
 header {
     position: fixed;
     right: 15px;
     top: 10px;
-}    
+}
 
 header nav img {
-display: block;
-}    
+    display: block;
+}
 
 .primary-red {
     color: crimson;
 }
+
 .underligned-red {
     text-decoration: underline crimson;
 }
+
 .icon-size {
     height: 15px;
     width: 15px;
@@ -35,20 +36,30 @@ display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .margintoppage2 {
     margin-top: 335px;
 }
+
 .statue {
-    margin-top: 150px;
+    margin-top: 200px;
+    width: 100%;
 }
+
 .margintopliste {
     margin-top: 50px;
 }
+
 .paragpage2 {
-    margin-left: 50px; 
-    font: aileron; 
-    font-size: 18px;"
+    margin-left: 50px;
+    font: aileron;
+    font-size: 18px;
+}
+
+.testbox {
+    border: black;
+    border-width: 3px;
+    border-style: solid;
 }
