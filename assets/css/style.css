@@ -9,6 +9,17 @@
     background-position: bottom;
 }
 
+#page3 {
+    background-image: url("../img/red.png");
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-color: #ffffff; */
+    height: 100vh;
+    background-position: bottom;
+}
+
 header {
     position: fixed;
     right: 15px;
@@ -27,6 +38,18 @@ header nav img {
     text-decoration: underline crimson;
 }
 
+.primary-white {
+    color: white;
+}
+
+.primary-black {
+    color: black;
+}
+
+.underligned-white {
+    text-decoration: underline white;
+}
+
 .icon-size {
     height: 15px;
     width: 15px;
@@ -43,6 +66,10 @@ header nav img {
     margin-top: 335px;
 }
 
+.margintoppage3 {
+    margin-top: 335px;
+}
+
 .statue {
     margin-top: 200px;
     width: 100%;
@@ -56,6 +83,22 @@ header nav img {
     margin-left: 50px;
     font: aileron;
     font-size: 18px;
+}
+
+.paragtitlepage2 {
+    color: crimson;
+}
+
+.paragpage3 {
+    margin-left: 0px;
+    font: aileron;
+    font-size: 18px;
+}
+
+.paragtitlepage3 {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .testbox {
