@@ -1,134 +1,155 @@
-            #page1 {
-                background-image: url("../img/cornfield.png");
-                background-repeat: no-repeat;
-                /* Do not repeat the image */
-                background-size: cover;
-                /* Resize the background image to cover the entire container */
-                /* background-color: #ffffff; */
-                height: 100vh;
-                background-position: bottom;
-            }
-            
-            #page3 {
-                background-color: crimson;
-            }
-            
-            header {
-                position: fixed;
-                right: 15px;
-                top: 10px;
-            }
-            
-            header nav img {
-                display: block;
-            }
-            
-            .primary-red {
-                color: crimson;
-            }
-            
-            .underligned-red {
-                text-decoration: underline crimson;
-            }
-            
-            .primary-white {
-                color: white;
-            }
-            
-            .primary-black {
-                color: black;
-            }
-            
-            .underligned-white {
-                text-decoration: underline white;
-            }
-            
-            .underligned-black {
-                text-decoration: underline black;
-            }
-            
-            .icon-size {
-                height: 15px;
-                width: 15px;
-            }
-            
-            .centered {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-            
-            .margintoppage2 {
-                margin-top: 335px;
-            }
-            
-            .margintoppage3 {
-                padding-top: 200px;
-            }
-            
-            .statue {
-                margin-top: 200px;
-                width: 100%;
-            }
-            
-            .margintopliste {
-                margin-top: 30px;
-            }
-            
-            .paragpage2 {
-                margin-left: 50px;
-                font: aileron;
-                font-size: 18px;
-            }
-            
-            .paragtitlepage2 {
-                color: crimson;
-            }
-            
-            .paragpage3 {
-                margin-left: 0px;
-                font: aileron;
-                font-size: 18px;
-            }
-            
-            .paragtitlepage3 {
-                margin-top: 60px;
-                color: white;
-                font-weight: bold;
-                font-size: 24px;
-            }
-            
-            .testbox {
-                border: black;
-                border-width: 3px;
-                border-style: solid;
-            }
-            
-            .titlepage2 {
-                font-size: 36px;
-                font: caladea;
-                padding-left: 50px;
-            }
-            
-            #paragtitle1::before {
-                content: "\2606";
-                color: crimson;
-                position: absolute;
-                left: 30px;
-            }
-            
-            #paragtitle2::before {
-                content: "\2661";
-                color: crimson;
-                position: absolute;
-                left: 30px;
-            }
-            
-            #paragtitle3::before {
-                content: "\263E";
-                color: crimson;
-                position: absolute;
-                left: 30px;
-                transform: rotate(-45deg);
-            }
+                #page1 {
+                    background-image: url("../img/cornfield.png");
+                    background-repeat: no-repeat;
+                    /* Do not repeat the image */
+                    background-size: cover;
+                    /* Resize the background image to cover the entire container */
+                    /* background-color: #ffffff; */
+                    height: 100vh;
+                    background-position: bottom;
+                }
+                
+                #page3 {
+                    background-color: crimson;
+                }
+                
+                header {
+                    position: fixed;
+                    right: 15px;
+                    top: 10px;
+                }
+                
+                header nav img {
+                    display: block;
+                }
+                
+                .primary-red {
+                    color: crimson;
+                }
+                
+                .underligned-red {
+                    text-decoration: underline crimson;
+                }
+                
+                .primary-white {
+                    color: white;
+                }
+                
+                .primary-black {
+                    color: black;
+                }
+                
+                .underligned-white {
+                    text-decoration: underline white;
+                }
+                
+                .underligned-black {
+                    text-decoration: underline black;
+                }
+                
+                .icon-size {
+                    height: 15px;
+                    width: 15px;
+                }
+                
+                .centered {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                
+                .margintoppage2 {
+                    margin-top: 335px;
+                }
+                
+                .margintoppage3 {
+                    padding-top: 200px;
+                }
+                
+                .statue {
+                    margin-top: 200px;
+                    width: 100%;
+                }
+                
+                .margintopliste {
+                    margin-top: 30px;
+                }
+                
+                .paragpage2 {
+                    margin-left: 50px;
+                    font: aileron;
+                    font-size: 18px;
+                }
+                
+                .paragtitlepage2 {
+                    color: crimson;
+                }
+                
+                .paragpage3 {
+                    margin-left: 0px;
+                    font: aileron;
+                    font-size: 18px;
+                }
+                
+                .paragtitlepage3 {
+                    margin-top: 60px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+                
+                .testbox {
+                    border: black;
+                    border-width: 3px;
+                    border-style: solid;
+                }
+                
+                .titlepage2 {
+                    font-size: 36px;
+                    font: caladea;
+                    padding-left: 50px;
+                }
+                
+                .topiconleft {
+                    padding-top: 75px;
+                }
+                
+                .midiconleft {
+                    padding-top: 175px;
+                }
+                
+                .topiconright {
+                    padding-top: 75px;
+                }
+                
+                .midiconright {
+                    padding-top: 150px;
+                }
+                
+                #paragtitle1::before {
+                    content: "\2606";
+                    color: crimson;
+                    position: absolute;
+                    left: 30px;
+                }
+                
+                #paragtitle2::before {
+                    content: "\2661";
+                    color: crimson;
+                    position: absolute;
+                    left: 30px;
+                }
+                
+                #paragtitle3::before {
+                    content: "\263E";
+                    color: crimson;
+                    position: absolute;
+                    left: 30px;
+                    transform: rotate(-45deg);
+                }
+                
+                .titlepage3 {
+                    font-size: 36px;
+                    font: caladea;
+                }
